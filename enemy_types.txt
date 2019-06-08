@@ -1,0 +1,98 @@
+user1: solid (1)
+user2: enemy (id)
+user3: misc object (id)
+user4: player starting position (1)
+
+Enemy ID's
+
+
+1 = Bootworm - short-range (1 jump left, 1 jump right, repeat)
+2 = Bootworm - long-range (2 jumps left, 2 jumps right, repeat)
+
+3 = Question Mark (?) Block 1 - Darkstonepowerup
+4 = Question Mark (?) Block 2 - coin
+5 = Darkstone
+6 = Moonstone
+7 = Question Mark (?) Block 3 - Moonstone powerup
+
+8 = Jaywalker
+9 = Janewalker
+
+10 = Bladeguin
+11 = Bootworm (short-range, but starts facing/jumping right instead of left)
+
+12 = Boss: Baby Sea Dragon
+13 = Boss: Baby Sea Dragon's large bullet
+14 = Boss: Baby Sea Dragon's small bullet
+
+15 = lava spring (normal version) (invincible, part of Red River Cave scenery in a sense)
+16 = lava spring (fast version)
+
+17 = lava spring (delay 1)
+18 = lava spring (delay 2)
+19 = lava spring (delay 3)
+20 = lava spring (delay 4)
+21 = lava spring (delay 5)
+22 = lava spring (delay 6)
+23 = lava spring (delay 7)
+24 = lava spring (delay 8)
+25 = lava spring (delay 9)
+26 = lava spring (delay 10)
+
+
+27 = Demon Bat (normal, starts to the left)
+28 = Demon Bat (normal, starts to the right)
+29 = Demon Bat (fast, starts to the left)
+30 = Demon Bat (fast, starts to the right)
+
+31 = Boulder (used in Red River Cave)
+32 = Boulder generator (spawns Boulder objects, used in Red River Cave)
+33 = Boulder generator 2 (spawns Boulder objects on a delay, inbetween every other generation of the other boulder generator object^ [#32])
+
+34 = Teleporter (invisible misc object) - instantly takes you to the top part of the level (used in Level 2-1 to get the Orbudark power-up)
+35 = Spike (used in Red River Cave)
+
+36 = Demon Minion
+37 = Demon Bat (flying fast to left, sent out by Demon Minion, is removed after leaving the screen)
+38 = Demon Bat (flying fast up, sent out by Demon Minion, is removed after leaving the screen)
+
+39 = non-boss Baby Sea Dragon
+40 = non-boss Baby Sea Dragon's large bullet
+41 = non-boss Baby Sea Dragon's small bullet
+
+42 = fairy object
+43 = fairy spawner object
+
+44 = boss: Realmkeeper's head
+45 = boss: Realmkeeper's body
+46 = boss: Realmkeeper's blob ("legs")
+47 = the moon in the Realmkeeper boss battle
+48 = ice crystal (created by Realmkeeper during the Realmkeeper boss battle)
+
+...
+
+101 = Sign #1
+102 = Sign #2
+..etc..
+121 = Sign #21
+
+...
+
+211 = Goal for Act 1-1
+212 = Goal for Act 1-2
+213 = Goal for Act 1-3 (spawned by Baby Sea Dragon upon getting killed)
+221 = Goal for Act 2-1
+222 = Goal for Act 2-2
+223 = Goal for Act 2-3 (spawned by Demon Minion upon getting killed)
+231 = Goal for Act 3-1
+232 = Goal for Act 3-2
+233 = Goal for Act 3-3 (spawned by Realmkeeper upon getting killed)
+
+...
+
+Cutscene objects:
+
+301 = ending1 (ending1.FMP) controller object
+302 = ending2 (ending2.FMP) controller object
+303 = Orbulite object used in ending2.FMP, can be used in other cutscenes as well (must be controlled by a controller object)
+304 = human object used in ending2.FMP
